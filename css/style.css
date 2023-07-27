@@ -5,6 +5,9 @@ nav{
     display:flex;
     flex-direction:column;
 }
+ul{
+    display:flex;
+}
 li{
     list-style:none;
     padding:20px 20px;
