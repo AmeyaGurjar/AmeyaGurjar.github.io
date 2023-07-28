@@ -5,3 +5,6 @@
     border:2px solid white;
     border-radius:100%;
 }
+#secName::before{
+    content:"Also Known As";
+}
