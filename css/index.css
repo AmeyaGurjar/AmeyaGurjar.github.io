@@ -5,6 +5,10 @@
     border:2px solid white;
     border-radius:100%;
 }
+#mainPara{
+    text-align:right;
+}
 #secName::before{
-    content:"Also Known As";
+    content:"Also Known As\a";
+    white-space:pre;
 }
