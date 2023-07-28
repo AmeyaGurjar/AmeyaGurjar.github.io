@@ -8,10 +8,13 @@ section div{
     justify-content:center;
     text-align:center;
 }
-section btn{
-    width:20vw;
-    height:10vh;
-    color:red;
+section button{
+    margin-bottom:8vh;
+    width:10vw;
+    height:5vh;
+}
+section button::before{
+    white-space:pre;
 }
 #donateTag{
     height:10vh;
@@ -46,4 +49,16 @@ section btn{
 }
 #axl::before{
     content:"@axl UPI Handles\a";
+}
+#paypalbtn::before{
+    content:"@AmeyMeow\a";    
+}
+#gitbtn::before{
+    content:"@AmeyaGurjar\a";
+}
+#buymecoffeebtn::before{
+    content:"@amey992004\a";
+}
+#kofibtn::before{
+    content:"@ameyagurjar\a";
 }
