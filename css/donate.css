@@ -14,6 +14,9 @@ section div{
 }
 #upi{
     display:flex;
+    flex-direction:row;
+}
+#upi ul{
     flex-direction:column;
 }
 #upi code{
