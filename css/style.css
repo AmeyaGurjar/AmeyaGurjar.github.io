@@ -22,3 +22,9 @@ li{
     padding:0 6vw;
     color:white;
 }
+#secName{
+    
+}
+#secName::before{
+    content:"Also Known As"
+}
