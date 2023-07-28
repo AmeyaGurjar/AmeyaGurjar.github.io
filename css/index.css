@@ -17,5 +17,6 @@
 #secName::before{
     content:"Also Known As\a";
     white-space:pre;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size:30%;
 }
