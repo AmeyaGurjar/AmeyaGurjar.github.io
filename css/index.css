@@ -13,5 +13,5 @@
 #secName::before{
     content:"Also Known As\a";
     white-space:pre;
-    font-size:50%;
+    font-size:30%;
 }
