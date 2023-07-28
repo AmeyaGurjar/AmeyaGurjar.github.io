@@ -16,8 +16,9 @@ section button{
     border:2px solid white;
     border-radius:60px;
 }
-section p{
+section code{
     margin:0;
+    display:block;
 }
 #donateTag{
     height:wrap-content;
