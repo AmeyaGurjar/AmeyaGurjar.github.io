@@ -12,13 +12,13 @@ section div{
     text-align:center;
     justify-content:center;
 }
-#ybl code{
+#ybl p{
     color:#FF671F;
 }
-#ibl code{
+#ibl p{
     color:#FFFFFF;
 }
-#axl code{
+#axl p{
     color:#046A38;
 }
 #ybl::before{
