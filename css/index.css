@@ -1,5 +1,7 @@
+#mainContent{
+    margin:10vh 10vw;
+}
 #mainContent img{
-    margin:2rem 2rem;
     width:8rem;
     height:8rem;
     border:2px solid white;
