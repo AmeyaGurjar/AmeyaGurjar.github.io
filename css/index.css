@@ -2,8 +2,8 @@
     margin:10vh 10vw;
 }
 #mainContent img{
-    width:8rem;
-    height:8rem;
+    width:40%;
+    height:40%;
     border:2px solid white;
     border-radius:100%;
 }
@@ -13,4 +13,5 @@
 #secName::before{
     content:"Also Known As\a";
     white-space:pre;
+    font-size:50%;
 }
