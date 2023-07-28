@@ -8,12 +8,11 @@
     border:2px solid white;
     border-radius:100%;
 }
-#mainContent img::hover{
-    content:url("../assets/DebCat.png");
-    height:8rem;
-}
 #mainPara{
     text-align:right;
+}
+#mainPara p{
+    text-align:justify;
 }
 #secName::before{
     content:"Also Known As\a";
