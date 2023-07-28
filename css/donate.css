@@ -16,7 +16,7 @@ section div{
     display:flex;
     flex-direction:row;
 }
-#upi ol{
+#upi div{
     flex-direction:column;
 }
 #upi code{
