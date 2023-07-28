@@ -8,6 +8,11 @@ section div{
     justify-content:center;
     text-align:center;
 }
+section btn{
+    width:20vw;
+    height:10vh;
+    color:red;
+}
 #donateTag{
     height:10vh;
 }
