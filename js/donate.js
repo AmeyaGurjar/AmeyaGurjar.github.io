@@ -3,3 +3,6 @@ const btnResponse = {"paypalbtn":"https://paypal.me/AmeyMeow", "gitbtn":"https:/
 const btnClick = (btn) => {
     window.location = btnResponse[btn.id];
 };
+const copyText = (text) => {
+    navigator.clipboard.writeText(text.innerText);
+}
