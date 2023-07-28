@@ -10,8 +10,8 @@ section div{
 }
 section button{
     margin:2vh 2vw;
-    width:40vw;
-    height:7vh;
+    width:20vw;
+    height:5vh;
     background-size:100% 100%;
     border:2px solid white;
     border-radius:60px;
@@ -20,7 +20,7 @@ section p{
     margin:0;
 }
 #donateTag{
-    height:10vh;
+    height:wrap-content;
 }
 #upi ul{
     display:flex;
