@@ -1,6 +1,6 @@
 section div{
-    display:flex;
-    margin: 10vh 10vw;
+    display:block;
+    margin: 10vh 5vw;
     border:2px double white;
     border-radius:10px;
     box-shadow:0 0 20px 5px white;
@@ -12,13 +12,17 @@ section div{
     text-align:center;
     justify-content:center;
 }
-#ybl p{
+#upi code{
+    text-weight:600;
+    text-shadow:0.75px 0.75px white;
+}
+#ybl code{
     color:#FF671F;
 }
-#ibl p{
+#ibl code{
     color:#FFFFFF;
 }
-#axl p{
+#axl code{
     color:#046A38;
 }
 #ybl::before{
