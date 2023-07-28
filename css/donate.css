@@ -10,7 +10,7 @@ section div{
 }
 section button{
     margin-bottom:8vh;
-    width:10vw;
+    width:30vw;
     height:5vh;
 }
 section button::before{
