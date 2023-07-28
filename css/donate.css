@@ -31,7 +31,7 @@ section div{
     white-space:pre;
     font-size:30%;
     color:#06038D;
-    text-shadow 0.2px 0.2px white;
+    text-shadow:0.2px 0.2px white;
 }
 #ybl::before{
     content:"@ybl UPI Handles\a";
