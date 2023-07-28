@@ -25,3 +25,7 @@ li{
     padding:0 6vw;
     color:white;
 }
+li a{
+    color:white;
+    text-decoration:none;
+}
