@@ -1,5 +1,6 @@
 #mainContent{
     margin:10vh 10vw;
+    display:inline-flex;
 }
 #mainContent img{
     width:40%;
