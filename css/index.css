@@ -8,6 +8,9 @@
     border:2px solid white;
     border-radius:100%;
 }
+#mainContent img::hover{
+    content:url("../assets/DebCat.png"):
+}
 #mainPara{
     text-align:right;
 }
