@@ -4,20 +4,18 @@ section div{
     border:2px double white;
     border-radius:10px;
     box-shadow:0 0 20px 5px white;
-    text-align:center;
+    align-items:center;
     justify-content:center;
+    text-align:center;
 }
 #donateTag{
     height:10vh;
-    text-align:center;
-    justify-content:center;
 }
 #upi ul{
     display:flex;
     flex-direction:column;
 }
 #upi code{
-    text-weight:600;
     text-shadow:0.75px 0.75px white;
 }
 #ybl code{
@@ -29,18 +27,18 @@ section div{
 #axl code{
     color:#046A38;
 }
-#ybl::before{
-    content:"@ybl UPI Handles\a";
+#ybl::before, #ibl::before, #axl::before{
     white-space:pre;
     font-size:30%;
+    color:#06038D;
+    text-shadow 0.2px 0.2px white;
+}
+#ybl::before{
+    content:"@ybl UPI Handles\a";
 }
 #ibl::before{
     content:"@ibl UPI Handles\a";
-    white-space:pre;
-    font-size:30%;
 }
 #axl::before{
     content:"@axl UPI Handles\a";
-    white-space:pre;
-    font-size:30%;
 }
