@@ -22,14 +22,17 @@ section div{
     color:#046A38;
 }
 #ybl::before{
-    content:"@ybl UPI Handles";
+    content:"@ybl UPI Handles\a";
+    white-space:pre;
     font-size:30%;
 }
 #ibl::before{
-    content:"@ibl UPI Handles";
+    content:"@ibl UPI Handles\a";
+    white-space:pre;
     font-size:30%;
 }
 #axl::before{
-    content:"@axl UPI Handles";
+    content:"@axl UPI Handles\a";
+    white-space:pre;
     font-size:30%;
 }
