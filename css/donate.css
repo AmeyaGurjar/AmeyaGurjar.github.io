@@ -9,13 +9,12 @@ section div{
     text-align:center;
 }
 section button{
-    margin-bottom:8vh;
+    margin:2vh 2vw;
     width:30vw;
     height:5vh;
-    background-size:contain;
-}
-section button::before{
-    white-space:pre;
+    background-size:100% 100%;
+    border:2px solid white;
+    border-radius:60px;
 }
 #donateTag{
     height:10vh;
@@ -54,24 +53,12 @@ section button::before{
 #paypalbtn{
     background-image:url("../assets/paypal.png");
 }
-#paypalbtn::before{
-    content:"@AmeyMeow\a";    
-}
 #gitbtn{
     background-image:url("../assets/git.png");
-}
-#gitbtn::before{
-    content:"@AmeyaGurjar\a";
 }
 #buymecoffeebtn{
     background-image:url("../assets/bmc.png");
 }
-#buymecoffeebtn::before{
-    content:"@amey992004\a";
-}
 #kofibtn{
     background-image:url("../assets/kofi.png");
-}
-#kofibtn::before{
-    content:"@ameyagurjar\a";
 }
