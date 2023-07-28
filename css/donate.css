@@ -12,6 +12,10 @@ section div{
     text-align:center;
     justify-content:center;
 }
+#upi{
+    display:flex;
+    flex-direction:column;
+}
 #upi code{
     text-weight:600;
     text-shadow:0.75px 0.75px white;
