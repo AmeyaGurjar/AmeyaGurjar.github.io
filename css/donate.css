@@ -12,11 +12,8 @@ section div{
     text-align:center;
     justify-content:center;
 }
-#upi{
+#upi ul{
     display:flex;
-    flex-direction:row;
-}
-#upi div{
     flex-direction:column;
 }
 #upi code{
