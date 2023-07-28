@@ -7,6 +7,28 @@ section div{
     justify-content:center;
 }
 #donateTag{
-    height:5vh;
+    height:10vh;
+    text-align:center;
     justify-content:center;
+}
+#ybl code{
+    color:#FF671F;
+}
+#ibl code{
+    color:#FFFFFF;
+}
+#axl code{
+    color:#046A38;
+}
+#ybl::before{
+    content:"@ybl UPI Handles";
+    font-size:30%;
+}
+#ibl::before{
+    content:"@ibl UPI Handles";
+    font-size:30%;
+}
+#axl::before{
+    content:"@axl UPI Handles";
+    font-size:30%;
 }
