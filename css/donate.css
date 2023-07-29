@@ -29,6 +29,10 @@ section code{
 #donateTag{
     height:wrap-content;
 }
+#donateTag p{
+    text-align:center;
+    border: 0.25px solid white;
+}
 #upi ul{
     display:flex;
     flex-direction:column;
