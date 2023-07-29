@@ -30,9 +30,13 @@ section code{
     height:wrap-content;
 }
 #donateTag p{
-    display:inline-block;
+    display:block;
+    margin:0;
+    padding:0;
+    font-family: 'Work Sans', sans-serif;
+    font-size:60%;
     text-align:center;
-    border: 0.25px solid white;
+    border: 0.20px solid white;
 }
 #upi ul{
     display:flex;
