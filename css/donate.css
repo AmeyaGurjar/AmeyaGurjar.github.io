@@ -30,6 +30,7 @@ section code{
     height:wrap-content;
 }
 #donateTag p{
+    display:inline-block;
     text-align:center;
     border: 0.25px solid white;
 }
