@@ -29,3 +29,13 @@ li a{
     color:white;
     text-decoration:none;
 }
+li::after{
+    content:"";
+    width:0;
+    height:3px;
+    background-color:white;
+    transition: width 0.5 ease;
+}
+li:hover::after{
+    width:100%;
+}
