@@ -67,6 +67,7 @@ section code{
 }
 #ibl::before{
     content:"@ibl UPI Handles\a";
+    color:#62636D !important;
 }
 #axl::before{
     content:"@axl UPI Handles\a";
